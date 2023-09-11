@@ -4,3 +4,15 @@ body{
 input:focus {
     outline: none;
 }
+.inputField{    
+    position: relative;
+    display: inline-block;
+}
+
+.inputField img {
+    position: absolute;
+    top: 50%;
+    left: 10px; 
+    transform: translateY(-50%);
+    z-index: 1;
+}
