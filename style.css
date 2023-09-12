@@ -16,3 +16,7 @@ input:focus {
     transform: translateY(-50%);
     z-index: 1;
 }
+.skew-left {
+    transform-origin: right; 
+    transform: skewX(-15deg); 
+}
