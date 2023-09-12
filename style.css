@@ -21,3 +21,16 @@ input:focus {
     transform-origin: right; 
     transform: skewX(-15deg); 
 }
+.shadow{
+    box-shadow: 3px 2px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #F8EDB1;
+  }
+  .shadowBtn{
+    box-shadow: 3px 2px 30px 0px rgba(0, 0, 0, 0.05), 0px 0px 3px 0px rgba(0, 0, 0, 0.25) inset;
+  }
