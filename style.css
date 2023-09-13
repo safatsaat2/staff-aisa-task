@@ -46,3 +46,6 @@ input:focus {
   .shadow-on-category:hover{
     box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
   }
+  .background-light-green{
+    background-color: rgba(59, 178, 128, 0.10);;
+  }
