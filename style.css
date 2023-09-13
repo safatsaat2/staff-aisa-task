@@ -53,3 +53,6 @@ input:focus {
     color: #5B6167 !important;
     opacity: 1; 
   }
+  .small-white-opacity{
+    color: rgba(255, 255, 255, 0.80);
+  }
