@@ -1,6 +1,7 @@
 body{
     font-family: 'Outfit', sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 input:focus {
     outline: none;
@@ -18,6 +19,10 @@ input:focus {
     z-index: 1;
 }
 .skew-left {
+    transform-origin: right; 
+    transform: skewX(-15deg); 
+}
+.skew-right {
     transform-origin: right; 
     transform: skewX(-15deg); 
 }
