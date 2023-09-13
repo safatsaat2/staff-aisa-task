@@ -49,3 +49,7 @@ input:focus {
   .background-light-green{
     background-color: rgba(59, 178, 128, 0.10);;
   }
+  ::placeholder {
+    color: #5B6167 !important;
+    opacity: 1; 
+  }
