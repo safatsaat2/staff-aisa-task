@@ -53,6 +53,10 @@ input:focus {
     color: #5B6167 !important;
     opacity: 1; 
   }
+  .light::placeholder {
+    color: rgba(63, 63, 62, 0.50) !important;
+    opacity: 1; 
+  }
   .small-white-opacity{
     color: rgba(255, 255, 255, 0.80);
   }
