@@ -25,7 +25,7 @@
   </head>
   <body className="bg-white">
     <!-- Navbar Starts -->
-    <nav class="max-w-[1320px] mx-auto flex items-center mt-[28px]">
+    <nav class="hidden lg:flex max-w-[1320px] mx-auto flex items-center mt-[28px]">
       <img
         src="https://i.ibb.co/y8zXJbS/i-Study-Logo-Dark-176x50.png"
         alt=""
@@ -85,41 +85,41 @@
     <!-- Navbar Ends -->
 
     <!-- Banner Starts -->
-    <section class="banner h-[866px] bg-[#FEFAE6] mt-5">
+    <section class="banner h-[866px] bg-[#FEFAE6] lg:mt-5">
       <div
-        class="flex justify-between items-center max-w-[1320px] mx-auto pt-20"
+        class="flex flex-col-reverse lg:flex-row justify-between items-center max-w-[1320px] mx-auto pt-20"
       >
         <div>
           <!-- Headline starts -->
           <h1
-            class="text-[64px] font-extrabold text-[#3F3F3E] leading-[83px] w-[392px]"
+            class="text-[24px] text-center lg:text-left mt-4 lg:mt-0 lg:ml-0 lg:text-[64px] font-extrabold text-[#3F3F3E] lg:leading-[83px] lg:w-[392px]"
           >
             Get Skilled Get Certified
           </h1>
-          <p class="text-lg text-[#3F3F3E] leading-[32.4px] mt-5">
+          <p class="text-sm text-center lg:text-left lg:ml-0 lg:text-lg text-[#3F3F3E] leading-[32.4px] lg:mt-5">
             Excellent training and certification courses suitable for all
           </p>
           <!-- Headline ends -->
 
           <!-- Search button Starts -->
-          <div class="flex mt-8">
+          <div class="flex mt-4 lg:mt-8">
             <input
-              class="w-[392px] bg-white text-[14px] pl-6 py-4 leading-[32.4px] rounded-s-[8px]"
+              class="lg:w-[392px] bg-white text-[14px] ml-2 lg:ml-0 px-2 text-[12px] lg:text-base lg:pl-6 lg:py-4 lg:leading-[32.4px] rounded-s-[8px]"
               type="text"
               placeholder="what do you want to learn today?"
             />
             <button
-              class="bg-[#3BB280] flex text-white items-center justify-center px-[42px] py-[18px] rounded-e-[8px] gap-x-2"
+              class="bg-[#3BB280] flex text-white items-center justify-center px-2 py-2 lg:px-[42px] lg:py-[18px] rounded-e-[8px] gap-x-2"
             >
               <!-- We can use svg file also I don't know the exact website where can I find same icon so I am using Img -->
-              <img src="https://i.ibb.co/DY4h3WV/ICONS-2.png" alt="" />
-              <p>Search</p>
+              <img class="w-2 lg:w-full" src="https://i.ibb.co/DY4h3WV/ICONS-2.png" alt="" />
+              <p class="text-sm lg:text-base">Search</p>
             </button>
           </div>
           <!-- Search button ends -->
 
           <!-- Need help section Starts -->
-          <div class="flex gap-x-6 items-start mt-8">
+          <div class="flex flex-col lg:flex-row items-center gap-x-6 lg:items-start mt-8">
             <div class="flex">
               <img
                 class=""
@@ -138,20 +138,20 @@
               />
             </div>
             <div>
-              <p class="text-lg text-[#3F3F3E] leading-[32.4px]">
+              <p class="text-sm lg:text-lg text-[#3F3F3E] leading-[32.4px]">
                 Need help?
                 <span class="underline underline-offset-2 cursor-pointer"
                   >Contact our iStudy</span
                 >
               </p>
-              <p class="text-lg text-[#3F3F3E] leading-[32.4px]">
+              <p class="text-sm lg:text-lg text-[#3F3F3E] leading-[32.4px]">
                 support Tell us about your query
               </p>
             </div>
           </div>
           <!-- Need help section Ends -->
           <!-- Explore Button -->
-          <div class="flex gap-x-1 mt-8 items-center">
+          <div class="flex justify-center lg:justify-normal gap-x-1 mt-4 lg:mt-8 items-center">
             <img
               class="cursor-pointer"
               src="https://i.ibb.co/9r1pD74/eva-diagonal-arrow-right-up-fill.png"
@@ -230,16 +230,16 @@
 
     <!-- Learn with Confidence starts -->
     <div
-      class="flex items-center justify-between max-w-[1320px] mx-auto mt-[190px]"
+      class="flex flex-col lg:flex-row items-center justify-between max-w-[1320px] mx-auto mt-[190px]"
     >
-      <h1 class="text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]">
+      <h1 class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]">
         Learn with Confidence
       </h1>
       <div
-        class="flex gap-x-[20px] items-center border border-[#D9D9D8] px-[100px] py-[25px] rounded-[100px]"
+        class="flex gap-x-[20px] items-center border border-[#D9D9D8] px-10 lg:px-[100px] py-[25px] rounded-[100px]"
       >
         <img
-          class="w-[244.01] h-[115px]"
+          class="w-[100px] lg:w-[244.01px] lg:h-[115px]"
           src="https://i.ibb.co/W2FTRd1/Group-1-5.png"
           alt=""
         />
@@ -250,24 +250,24 @@
 
     <!-- Career Bundles Starts -->
 
-    <section class="max-w-[1320px] mx-auto mt-[120px]">
+    <section class="max-w-[1320px] mx-auto mt-[40px] lg:mt-[120px]">
       <!-- Title Starts -->
       <div
-        class="flex items-center justify-between max-w-[1320px] mx-auto mb-[56px]"
+        class="flex flex-col lg:flex-row items-center justify-between max-w-[1320px] mx-auto mb-[56px]"
       >
-        <h1 class="text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]">
+        <h1 class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]">
           Career Bundles
         </h1>
         <div
-          class="flex gap-x-[20px] items-center border border-[#3BB280] px-[40px] py-[25px] rounded-[10px]"
+          class="flex gap-x-[20px] items-center border border-[#3BB280] px-5 py-2 lg:px-[40px] lg:py-[25px] rounded-[10px]"
         >
           <img
-            class="cursor-pointer w-[24px]"
+            class="cursor-pointer w-4 lg:w-[24px]"
             src="https://i.ibb.co/9r1pD74/eva-diagonal-arrow-right-up-fill.png"
             alt=""
           />
           <p
-            class="cursor-pointer text-lg leading-[21.6px] text-[#3BB280] font-semibold"
+            class="cursor-pointer text-sm lg:text-lg leading-[21.6px] text-[#3BB280] font-semibold"
           >
             Explore all courses
           </p>
@@ -277,7 +277,7 @@
 
       <!-- Card Starts -->
       <div
-        class="grid grid-cols-3 gap-x-[30px] items-center justify-center gap-y-[34px] ml-[60px] mr-[108px]"
+        class="grid grid-cols-1 lg:grid-cols-3 gap-x-[30px] items-center justify-center gap-y-[34px] lg:ml-[60px] lg:mr-[108px]"
       >
         <!-- individual card start  -->
 
@@ -979,16 +979,16 @@
     <section class="max-w-[1320px] mx-auto mt-[423px]">
       <!-- Title Starts -->
       <div
-        class="flex items-center justify-between max-w-[1320px] mx-auto mb-[56px]"
+        class="flex flex-col lg:flex-row items-center justify-between max-w-[1320px] mx-auto mb-[56px]"
       >
-        <h1 class="text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]">
+        <h1 class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]">
           Trending Courses
         </h1>
         <div
-          class="flex gap-x-[20px] items-center border border-[#3BB280] px-[40px] py-[25px] rounded-[10px]"
+          class="flex gap-x-[20px] items-center border border-[#3BB280] px-5 py-2 lg:px-[40px] lg:py-[25px] rounded-[10px]"
         >
           <img
-            class="cursor-pointer w-[24px]"
+            class="cursor-pointer w-4 lg:w-[24px]"
             src="https://i.ibb.co/9r1pD74/eva-diagonal-arrow-right-up-fill.png"
             alt=""
           />
@@ -1003,7 +1003,7 @@
 
       <!-- Card Starts -->
       <div
-        class="grid grid-cols-3 gap-x-[30px] items-center justify-center gap-y-[34px] ml-[60px] mr-[108px]"
+        class="grid grid-cols-1 lg:grid-cols-3 gap-x-[30px] items-center justify-center gap-y-[34px] lg:ml-[60px] lg:mr-[108px]"
       >
         <!-- individual card start  -->
 
@@ -1662,16 +1662,16 @@
     <section class="max-w-[1320px] mx-auto mt-[120px]">
       <!-- Title Starts -->
       <div
-        class="flex items-center justify-between max-w-[1320px] mx-auto mb-[50px]"
+        class="flex flex-col lg:flex-row items-center justify-between max-w-[1320px] mx-auto mb-[50px]"
       >
-        <h1 class="text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]">
+        <h1 class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]">
           Top Categories
         </h1>
         <div
-          class="flex gap-x-[20px] items-center border border-[#3BB280] px-[40px] py-[25px] rounded-[10px]"
+          class="flex gap-x-[20px] items-center border border-[#3BB280] px-5 py-2 lg:px-[40px] lg:py-[25px] rounded-[10px]"
         >
           <img
-            class="cursor-pointer w-[24px]"
+            class="cursor-pointer w-4 lg:w-[24px]"
             src="https://i.ibb.co/9r1pD74/eva-diagonal-arrow-right-up-fill.png"
             alt=""
           />
@@ -1685,7 +1685,7 @@
       <!-- Title Ends -->
 
       <!-- Cards of category starts -->
-      <div class="grid grid-cols-4 gap-[20px]">
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-[20px]">
         <!-- On hovering we can implement transition duration I am not implementing because it's not mentioned -->
         <!-- individual card starts -->
 
@@ -1798,17 +1798,17 @@
     <!-- Reviews Section Starts -->
 
     <!-- Here I have used background color in rgba if I  use rgba a benefit is that I can control opacity -->
-    <section class="mt-[120px] background-light-green">
+    <section class="mt-[40px] lg:mt-[120px] background-light-green">
       <div class="max-w-[1320px] mx-auto">
         <!-- Title starts -->
         <h2
-          class="text-[48px] font-bold text-center text-[#3F3F3E] leading-[62.2px] pt-[70px] pb-[50px]"
+          class="text-2xl lg:text-[48px] font-bold text-center text-[#3F3F3E] lg:leading-[62.2px] pt-[40px] lg:pt-[70px] pb-[50px]"
         >
           Your Reviews Matter to us
         </h2>
         <!-- Title end -->
 
-        <div class="flex items-center justify-center gap-x-5 pb-[70px]">
+        <div class="flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 items-center justify-center gap-x-5 pb-[70px]">
           <!-- Indivitual Card starts  -->
           <div class="rounded-[10px] bg-white h-[316px] pt-10 px-8">
             <div class="flex items-start gap-x-[12px]">
