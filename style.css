@@ -24,7 +24,7 @@ input:focus {
 }
 .skew-right {
     transform-origin: right; 
-    transform: skewX(-15deg); 
+    transform: skewX(15deg); 
 }
 .shadow{
     box-shadow: 3px 2px 30px 0px rgba(0, 0, 0, 0.05);
@@ -38,4 +38,11 @@ input:focus {
   }
   .shadowBtn{
     box-shadow: 3px 2px 30px 0px rgba(0, 0, 0, 0.05), 0px 0px 3px 0px rgba(0, 0, 0, 0.25) inset;
+  }
+  .shadow-light{
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+    
+  }
+  .shadow-on-category:hover{
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
   }
