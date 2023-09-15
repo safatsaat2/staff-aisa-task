@@ -24,65 +24,121 @@
     <title>iStudy</title>
   </head>
   <body className="bg-white">
-    <!-- Navbar Starts -->
-    <nav class="hidden lg:flex max-w-[1320px] mx-auto flex items-center mt-[28px]">
-      <img
-        src="https://i.ibb.co/y8zXJbS/i-Study-Logo-Dark-176x50.png"
-        alt=""
-        srcset=""
-      />
-      <!-- SearchBar -->
-      <div
-        class="border border-[#D6D6D6] pl-2 pr-6 py-3 flex items-center ml-[216px] rounded-[4px]"
-      >
-        <img src="https://i.ibb.co/GcS088s/ICONS.png" alt="" />
-        <input
-          class="text-sm ml-2 w-[144px] text-[#9F9F9F]"
-          placeholder="Search for Courses ..."
-        />
-      </div>
-      <!-- SearchBar ends -->
+    <header>
 
-      <!-- Menu items starts -->
-      <div class="flex items-center gap-x-[50px] ml-[101px] mr-[103px]">
-        <p
-          class="text-[#656565] text-[18px] hover:text-[#3BB280] border-item cursor-pointer"
-        >
-          Home
-        </p>
-        <p
-          class="text-[#656565] text-[18px] hover:text-[#3BB280] border-item cursor-pointer"
-        >
-          Courses
-        </p>
-        <p
-          class="text-[#3F3F3E] text-[18px] hover:text-[#3BB280] border-item cursor-pointer"
-        >
-          Flash Sale
-        </p>
-        <p
-          class="text-[#656565] text-[18px] hover:text-[#3BB280] border-item cursor-pointer"
-        >
-          Explore
-        </p>
-      </div>
-      <!-- Menu items ends -->
-
-      <!-- Log in Section starts -->
-      <div class="flex gap-x-[30px] items-center">
-        <div class="flex items-center gap-x-2 cursor-pointer">
-          <img src="https://i.ibb.co/cCfNs6k/ICONS-1.png" alt="" />
-          <p class="text-[#3F3F3E] text-base">Log in</p>
+      <!-- MObile responsive Nabvar starts -->
+      <nav class="container block mx-4 lg:hidden">
+        <div class="flex items-center justify-between">
+          <a href="#" class="toggle"
+          ><img src="https://i.ibb.co/CsF3gKp/shape-3.png" alt=""
+        /></a>
+        <a href="" class="inline-block"
+          ><img
+            src="https://i.ibb.co/y8zXJbS/i-Study-Logo-Dark-176x50.png"
+            alt=""
+            srcset=""
+        /></a>
         </div>
+        <div class="menu hidden flex flex-col items-center justify-center mt-5">
+          <p
+            class="text-[#656565] my-2 text-[18px] hover:text-[#3BB280] border-item single-menu cursor-pointer"
+          >
+            Home
+          </p>
+          <p
+            class="text-[#656565] my-2 text-[18px] hover:text-[#3BB280] border-item single-menu cursor-pointer"
+          >
+            Courses
+          </p>
+          <p
+            class="text-[#3F3F3E] my-2 text-[18px] hover:text-[#3BB280] border-item single-menu cursor-pointer"
+          >
+            Flash Sale
+          </p>
+          <p
+            class="text-[#656565] my-2 text-[18px] hover:text-[#3BB280] border-item single-menu cursor-pointer"
+          >
+            Explore
+          </p>
+          <div class="flex gap-x-[30px] items-center my-2">
+            <div class="flex items-center gap-x-2 cursor-pointer">
+              <img src="https://i.ibb.co/cCfNs6k/ICONS-1.png" alt="" />
+              <p class="text-[#3F3F3E] text-base">Log in</p>
+            </div>
+            <img
+              class="cursor-pointer"
+              src="https://i.ibb.co/7pGJPC6/bytesize-cart.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        
+      </nav>
+<!-- MObile responsive Nabvar ends -->
+
+<!-- Pc Nabvar starts -->
+      <nav
+        class="hidden lg:flex max-w-[1320px] mx-auto flex items-center mt-[28px]"
+      >
         <img
-          class="cursor-pointer"
-          src="https://i.ibb.co/7pGJPC6/bytesize-cart.png"
+          src="https://i.ibb.co/y8zXJbS/i-Study-Logo-Dark-176x50.png"
           alt=""
+          srcset=""
         />
-      </div>
-      <!-- Log in Section ends -->
-    </nav>
-    <!-- Navbar Ends -->
+        <!-- SearchBar -->
+        <div
+          class="border border-[#D6D6D6] pl-2 pr-6 py-3 flex items-center ml-[216px] rounded-[4px]"
+        >
+          <img src="https://i.ibb.co/GcS088s/ICONS.png" alt="" />
+          <input
+            class="text-sm ml-2 w-[144px] text-[#9F9F9F]"
+            placeholder="Search for Courses ..."
+          />
+        </div>
+        <!-- SearchBar ends -->
+
+        <!-- Menu items starts -->
+        <div class="flex items-center gap-x-[50px] ml-[101px] mr-[103px]">
+          <p
+            class="text-[#656565] text-[18px] hover:text-[#3BB280] border-item cursor-pointer"
+          >
+            Home
+          </p>
+          <p
+            class="text-[#656565] text-[18px] hover:text-[#3BB280] border-item cursor-pointer"
+          >
+            Courses
+          </p>
+          <p
+            class="text-[#3F3F3E] text-[18px] hover:text-[#3BB280] border-item cursor-pointer"
+          >
+            Flash Sale
+          </p>
+          <p
+            class="text-[#656565] text-[18px] hover:text-[#3BB280] border-item cursor-pointer"
+          >
+            Explore
+          </p>
+        </div>
+        <!-- Menu items ends -->
+
+        <!-- Log in Section starts -->
+        <div class="flex gap-x-[30px] items-center">
+          <div class="flex items-center gap-x-2 cursor-pointer">
+            <img src="https://i.ibb.co/cCfNs6k/ICONS-1.png" alt="" />
+            <p class="text-[#3F3F3E] text-base">Log in</p>
+          </div>
+          <img
+            class="cursor-pointer"
+            src="https://i.ibb.co/7pGJPC6/bytesize-cart.png"
+            alt=""
+          />
+        </div>
+        <!-- Log in Section ends -->
+      </nav>
+      <!-- Pc Nabvar starts -->
+    </header>
 
     <!-- Banner Starts -->
     <section class="banner h-[866px] bg-[#FEFAE6] lg:mt-5">
@@ -96,7 +152,9 @@
           >
             Get Skilled Get Certified
           </h1>
-          <p class="text-sm text-center lg:text-left lg:ml-0 lg:text-lg text-[#3F3F3E] leading-[32.4px] lg:mt-5">
+          <p
+            class="text-sm text-center lg:text-left lg:ml-0 lg:text-lg text-[#3F3F3E] leading-[32.4px] lg:mt-5"
+          >
             Excellent training and certification courses suitable for all
           </p>
           <!-- Headline ends -->
@@ -112,14 +170,20 @@
               class="bg-[#3BB280] flex text-white items-center justify-center px-2 py-2 lg:px-[42px] lg:py-[18px] rounded-e-[8px] gap-x-2"
             >
               <!-- We can use svg file also I don't know the exact website where can I find same icon so I am using Img -->
-              <img class="w-2 lg:w-full" src="https://i.ibb.co/DY4h3WV/ICONS-2.png" alt="" />
+              <img
+                class="w-2 lg:w-full"
+                src="https://i.ibb.co/DY4h3WV/ICONS-2.png"
+                alt=""
+              />
               <p class="text-sm lg:text-base">Search</p>
             </button>
           </div>
           <!-- Search button ends -->
 
           <!-- Need help section Starts -->
-          <div class="flex flex-col lg:flex-row items-center gap-x-6 lg:items-start mt-8">
+          <div
+            class="flex flex-col lg:flex-row items-center gap-x-6 lg:items-start mt-8"
+          >
             <div class="flex">
               <img
                 class=""
@@ -151,7 +215,9 @@
           </div>
           <!-- Need help section Ends -->
           <!-- Explore Button -->
-          <div class="flex justify-center lg:justify-normal gap-x-1 mt-4 lg:mt-8 items-center">
+          <div
+            class="flex justify-center lg:justify-normal gap-x-1 mt-4 lg:mt-8 items-center"
+          >
             <img
               class="cursor-pointer"
               src="https://i.ibb.co/9r1pD74/eva-diagonal-arrow-right-up-fill.png"
@@ -232,7 +298,9 @@
     <div
       class="flex flex-col lg:flex-row items-center justify-between max-w-[1320px] mx-auto mt-[190px]"
     >
-      <h1 class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]">
+      <h1
+        class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]"
+      >
         Learn with Confidence
       </h1>
       <div
@@ -255,7 +323,9 @@
       <div
         class="flex flex-col lg:flex-row items-center justify-between max-w-[1320px] mx-auto mb-[56px]"
       >
-        <h1 class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]">
+        <h1
+          class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]"
+        >
           Career Bundles
         </h1>
         <div
@@ -981,7 +1051,9 @@
       <div
         class="flex flex-col lg:flex-row items-center justify-between max-w-[1320px] mx-auto mb-[56px]"
       >
-        <h1 class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]">
+        <h1
+          class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]"
+        >
           Trending Courses
         </h1>
         <div
@@ -1664,7 +1736,9 @@
       <div
         class="flex flex-col lg:flex-row items-center justify-between max-w-[1320px] mx-auto mb-[50px]"
       >
-        <h1 class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]">
+        <h1
+          class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px]"
+        >
           Top Categories
         </h1>
         <div
@@ -1808,7 +1882,9 @@
         </h2>
         <!-- Title end -->
 
-        <div class="flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 items-center justify-center gap-x-5 pb-[70px]">
+        <div
+          class="flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 items-center justify-center lg:gap-x-5 pb-[70px]"
+        >
           <!-- Indivitual Card starts  -->
           <div class="rounded-[10px] bg-white h-[316px] pt-10 px-8">
             <div class="flex items-start gap-x-[12px]">
@@ -1883,47 +1959,48 @@
 
     <!-- Full Access Starts -->
     <section
-      class="max-w-[1320px] mx-auto mt-[120px] flex justify-between items-center"
+      class="max-w-[1320px] mx-auto mt-[120px] flex flex-col px-4 gap-y-10 lg:gap-y-0 lg:flex-row  lg:px-0 justify-between items-center"
     >
       <div>
         <!-- Title Starts -->
-        <p class="text-lg tracking-[0.9px] text-[#656565]">
+        <p class="lg:text-lg tracking-[0.9px] text-[#656565]">
           Become an Unlimited Learning Member & Get
         </p>
         <h3
-          class="text-[48px] font-bold leading-[67.2px] text-[#3F3F3E] mt-5 lg:w-[685px]"
+        
+          class="text-2xl lg:text-[48px] text-[#3F3F3E] font-bold leading-[62.7px] mt-2 lg:mt-5 lg:w-[685px]"
         >
           Full Access to 2000+ Courses
         </h3>
         <!-- Title Ends -->
 
-        <div class="mt-[30px]">
-          <h5 class="text-2xl font-semibold leading-[33.6px] text-[#3F3F3E]">
+        <div class=" lg:mt-[30px]">
+          <h5 class="text-lg lg:text-2xl font-semibold leading-[33.6px] text-[#3F3F3E]">
             Yearly Plan
           </h5>
 
           <div class="flex mt-[10px]">
-            <li class="list-disc text-lg leading-[32.4px] text-[#656565]">
+            <li class="list-disc text-sm lg:text-lg leading-[32.4px] text-[#656565]">
               Only <span class="text-[#3BB280]">£49.99</span>
             </li>
             <li
-              class="list-disc text-lg leading-[32.4px] text-[#656565] ml-[60px]"
+              class="list-disc text-sm lg:text-lg leading-[32.4px] text-[#656565] ml-[60px]"
             >
               <span class="text-[#3BB280]">2000+</span> Courses Access
             </li>
           </div>
           <div class="flex mt-[10px]">
-            <li class="list-disc text-lg leading-[32.4px] text-[#656565]">
+            <li class="list-disc text-sm lg:text-lg leading-[32.4px] text-[#656565]">
               Instant Certificate
             </li>
             <li
-              class="list-disc text-lg leading-[32.4px] text-[#656565] ml-[10px]"
+              class="list-disc text-sm lg:text-lg leading-[32.4px] text-[#656565] ml-[10px]"
             >
               <span class="text-[#3BB280]">24/7</span> Support
             </li>
           </div>
           <div class="flex mt-[10px]">
-            <li class="list-disc text-lg leading-[32.4px] text-[#656565]">
+            <li class="list-disc text-sm lg:text-lg leading-[32.4px] text-[#656565]">
               Billed Yearly
             </li>
           </div>
@@ -2053,61 +2130,164 @@
 
     <!-- Footer Starts -->
     <section class="background-light-green mt-[213px] pb-[120px]">
-      <div class="max-w-[1320px] mx-auto pt-[205px] flex justify-center gap-x-[100px] items-start">
+      <div
+        class="max-w-[1320px] mx-auto pt-[205px] flex justify-center gap-x-[100px] items-start"
+      >
         <div>
-          <img src="https://i.ibb.co/hRpN9FL/i-Study-Logo-Dark-176x50-1.png" alt="">
-          <p class="leading-[28.8px] text-[#656565] mt-5 w-[319px]">iStudy training courses are delivered entirely online through our sophisticated student learning portal.</p>
+          <img
+            src="https://i.ibb.co/hRpN9FL/i-Study-Logo-Dark-176x50-1.png"
+            alt=""
+          />
+          <p class="leading-[28.8px] text-[#656565] mt-5 w-[319px]">
+            iStudy training courses are delivered entirely online through our
+            sophisticated student learning portal.
+          </p>
           <div class="flex items-center gap-x-4 mt-[30px]">
-            <img class="w-6" src="https://i.ibb.co/G5H8YhG/ICONS-17.png" alt="">
-            <p class="leading-[25.2px] text-[14px] text-[#656565]">020 3900 4072</p>
+            <img
+              class="w-6"
+              src="https://i.ibb.co/G5H8YhG/ICONS-17.png"
+              alt=""
+            />
+            <p class="leading-[25.2px] text-[14px] text-[#656565]">
+              020 3900 4072
+            </p>
           </div>
           <div class="flex items-center gap-x-4 mt-[20px]">
-            <img class="w-6" src="https://i.ibb.co/X4Kg2vd/ICONS-18.png" alt="">
-            <p class="leading-[25.2px] text-[14px] text-[#656565]">hello@istudy.org.uk</p>
+            <img
+              class="w-6"
+              src="https://i.ibb.co/X4Kg2vd/ICONS-18.png"
+              alt=""
+            />
+            <p class="leading-[25.2px] text-[14px] text-[#656565]">
+              hello@istudy.org.uk
+            </p>
           </div>
           <div class="flex items-center gap-x-4 mt-[20px]">
-            <img class="w-6" src="https://i.ibb.co/865dRh7/ICONS-19.png" alt="">
-            <p class="leading-[25.2px] text-[14px] text-[#656565]">11 Floor, 15 St Botolph Street, London EC3A 7BB</p>
+            <img
+              class="w-6"
+              src="https://i.ibb.co/865dRh7/ICONS-19.png"
+              alt=""
+            />
+            <p class="leading-[25.2px] text-[14px] text-[#656565]">
+              11 Floor, 15 St Botolph Street, London EC3A 7BB
+            </p>
           </div>
         </div>
         <div>
-          <h4 class="text-2xl font-semibold leading-[33.6px] text-[#3F3F3E]">Important Links</h4>
+          <h4 class="text-2xl font-semibold leading-[33.6px] text-[#3F3F3E]">
+            Important Links
+          </h4>
           <div class="mt-[20px]">
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]">About</p>
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]">Courses</p>
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]">Blogs</p>
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]">Contact Us</p>
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]">Student ID Card</p>
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]">Teach</p>
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]">Redeem Voucher</p>
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]">Affiliate</p>
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer ">Refer a Friend</p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]"
+            >
+              About
+            </p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]"
+            >
+              Courses
+            </p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]"
+            >
+              Blogs
+            </p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]"
+            >
+              Contact Us
+            </p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]"
+            >
+              Student ID Card
+            </p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]"
+            >
+              Teach
+            </p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]"
+            >
+              Redeem Voucher
+            </p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]"
+            >
+              Affiliate
+            </p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer"
+            >
+              Refer a Friend
+            </p>
           </div>
         </div>
         <div>
-          <h4 class="text-2xl font-semibold leading-[33.6px] text-[#3F3F3E]">Other Links</h4>
+          <h4 class="text-2xl font-semibold leading-[33.6px] text-[#3F3F3E]">
+            Other Links
+          </h4>
           <div class="mt-[20px]">
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]">Terms & Conditions</p>
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]">Privacy Policy</p>
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]">Cookie Policy</p>
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]">Disclaimer</p>
-            <p class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer ">Complaint Form</p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]"
+            >
+              Terms & Conditions
+            </p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]"
+            >
+              Privacy Policy
+            </p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]"
+            >
+              Cookie Policy
+            </p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer mb-[4px]"
+            >
+              Disclaimer
+            </p>
+            <p
+              class="text-[14px] leading-[25.2px] text-[#3F3F3E] cursor-pointer"
+            >
+              Complaint Form
+            </p>
           </div>
         </div>
-        <div >
-          <h4 class="text-2xl font-semibold leading-[33.6px] text-[#3F3F3E]">Validate your Certificate</h4>
+        <div>
+          <h4 class="text-2xl font-semibold leading-[33.6px] text-[#3F3F3E]">
+            Validate your Certificate
+          </h4>
           <div class="flex items-center mt-[20px]">
-            <input class="py-3 pl-4 pr-[16px] rounded-s-[8px] light" type="text" placeholder="Enter Your Certificate Code">
-            <button class="bg-[#3BB280] py-3 leading-[28.8px] text-white px-[14px] rounded-e-[8px] ">Validate</button>
+            <input
+              class="py-3 pl-4 pr-[16px] rounded-s-[8px] light"
+              type="text"
+              placeholder="Enter Your Certificate Code"
+            />
+            <button
+              class="bg-[#3BB280] py-3 leading-[28.8px] text-white px-[14px] rounded-e-[8px]"
+            >
+              Validate
+            </button>
           </div>
         </div>
       </div>
     </section>
     <!-- Footer Ends -->
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Toggle for Navbar starts -->
+    <script>
+      $(document).ready(function(){
+        $(".toggle").click(function(){
+          $(".menu").toggleClass("hidden");
+        })
+      })
     </script>
+    <!-- Toggle for Navbar Ends -->
+    
   </body>
 </html>
